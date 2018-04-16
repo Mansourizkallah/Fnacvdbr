@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <meta name="viewport" content="width=820"/>
+            <meta name="description" content="">
+            <meta name="Author" content="New Vanden Borre nv / sa">
+            <meta name="copyright" content="&copy; 2010 New Vanden Borre nv / sa">
+            <meta name="robots" content="index,follow">
+            <meta name="keywords" content="TV, video, hifi, elektro, multimedia, telefonie, dienst na verkoop, herstellingen, herstelling aan huis, techniekers, service, electro, accessoires, toebehoren, accessoire">
+            <meta property="fb:admins" content="1793748796" />
+            <meta http-equiv="cleartype" content="on">
+            <!-- UIkit CSS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css" />
+            <!-- UIkit JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js"></script>
+            
+            <title>Export Customer Info</title>
+            <style>
+                    body {
+                        font-family: sans-serif;
+                        
+                    }
+                    table {
+                        border-collapse: collapse;
+                        
+                    }
+                    thead {
+                       
+                        color: #fff;
+                    }
+                    thead,tbody {
+                        display: block;
+                        
+                    }
+                    th,td {
+                    
+                        box-sizing: border-box;
+                    }
+                    tbody {
+                       
+                        overflow-y: scroll
+                    }
+
+                    
+                </style>
+
+
+
+
+    </head>
+            <br><div  class="uk-position-top-left uk-padding-small"> <a href="https://www.vandenborre.be/fr"><img  src="VandenBorre.jpeg" width="150" height"100"></div>
+            <br><div  class="   uk-position-top-right "><img  src="vandenborrelogo.png" width="80" height"40"></div></a>
+            <h3 class="uk-heading-line uk-text-left" style="color:red;"><span>&nbsp;&nbsp;&nbsp;Search Customer Informations</span></h3>
+    </head>
+    <body>
+           <center> 
+               <div class="uk-padding-small">
+                   <tr>
+                <span uk-search-icon></span>
+                <td><input class=" uk-search-input uk-search-default uk-search-large" style="background-color:#F2F2F2 ; height: 38px ; widows: 400px;" type="search" placeholder="Criteria" ></td>
+                    
+                     <div uk-drop id="criteria">
+                    <div class="uk-card uk-card-default uk-text-left" style="background-color:#FAFAFA" >Criteria of Search: <br>-Email<br>-Phone Number<br>-Firstname, Lastname, Zipcode, Street</div>
+                    </div>
+            
+
+<script>
+        UIkit.notification({
+            message: 'Hello world',
+            status: 'primary',
+            pos: 'top-center',
+            timeout: 5000
+        });
+        </script>
+
+                   <td> <button class="uk-button" style="background-color:red; color:white;" >Search</button> </td>
+                </tr>
+                </div>
+            </center>   
+                    <h3 class="uk-heading-line uk-text-left" style="color:red;" ><span>&nbsp;&nbsp;&nbsp;Customer Informations</span></h3>
+                <br>
+                <div align="center" class="uk-table-large " >
+                    <table class=" uk-table-striped example-table uk-table-large" >
+                
+                            <tr>
+                                <th class=" uk-text-center"  style="color:red">First Name</th>
+                                <th class=" uk-text-center"  style="color:red">Last Name</th>
+                                <th class=" uk-text-center"  style="color:red">Email</th>
+                                <th class=" uk-text-center"  style="color:red">Phone Number</th>
+                                <th class=" uk-text-center"  style="color:red">PostCode</th>
+                                <th class=" uk-text-center"  style="color:red">Street</th>
+                            </tr>   
+                     
+                        <cache block="Customers">
+                                <tr>
+                                        <td align="center">KOEN</td>
+                                        <td align="center">IX</td>
+                                        <td align="center">koen.ix@telenet.be</td>
+                                        <td align="center">32494841686</td>
+                                        <td align="center">3300</td>
+                                        <td align="center">fezfdsgsdgds</td>
+                                        
+                                    </tr>
+                                <tr>
+                                    <td align="center">KOEN</td>
+                                    <td align="center">IX</td>
+                                    <td align="center">koen.ix@telenet.be</td>
+                                    <td align="center">32494841686</td>
+                                    <td align="center">3300</td>
+                                    <td align="center">BUNSBEEKSTRAATBEKSTRAAT</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align="center">KOEN</td>
+                                    <td align="center">IX</td>
+                                    <td align="center">koen.ix@telenet.be</td>
+                                    <td align="center">32494841686</td>
+                                    <td align="center">3300</td>
+                                    <td align="center">hdshgfdshgf</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align="center">KOEN</td>
+                                    <td align="center">IX</td>
+                                    <td align="center">koen.ix@telenet.be</td>
+                                    <td align="center">32494841686</td>
+                                    <td align="center">3300</td>
+                                    <td align="center">hsdfhsdfhd</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align="center">KOEN</td>
+                                    <td align="center">IX</td>
+                                    <td align="center">koen.ix@telenet.be</td>
+                                    <td align="center">32494841686</td>
+                                    <td align="center">3300</td>
+                                    <td align="center">hdfg</td>
+                                    
+                                </tr>
+                                <tr>
+                                        <td align="center">KOEN</td>
+                                        <td align="center">IX</td>
+                                        <td align="center">koen.ix@telenet.be</td>
+                                        <td align="center">32494841686</td>
+                                        <td align="center">3300</td>
+                                        <td align="center">fezfdsgsdgds</td>
+                                        
+                                    </tr>
+                                <tr>
+                                    <td align="center">KOEN</td>
+                                    <td align="center">IX</td>
+                                    <td align="center">koen.ix@telenet.be</td>
+                                    <td align="center">32494841686</td>
+                                    <td align="center">3300</td>
+                                    <td align="center">BUNTRAATBUNSBEEKSTRAAT</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align="center">KOEN</td>
+                                    <td align="center">IX</td>
+                                    <td align="center">koen.ix@telenet.be</td>
+                                    <td align="center">32494841686</td>
+                                    <td align="center">3300</td>
+                                    <td align="center">hdshgfdfhdijhfshgf</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align="center">KOEN</td>
+                                    <td align="center">IX</td>
+                                    <td align="center">koen.ix@telenet.be</td>
+                                    <td align="center">32494841686</td>
+                                    <td align="center">3300</td>
+                                    <td align="center">hsdfhsdfhd</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align="center">KOEN</td>
+                                    <td align="center">IX</td>
+                                    <td align="center">koen.ix@telenet.be</td>
+                                    <td align="center">32494841686</td>
+                                    <td align="center">3300</td>
+                                    <td align="center">hdfg</td>
+                                    
+                                </tr> 
+                        </cache>           
+                </table>
+            </div>
+            <br>
+            <br>
+            <br>
+             <div class="uk-padding-small" align = "right">
+                <button type="submit" name="Export" class="uk-button" style="background-color:red; color:white;" >Export</button>
+            </div>
+        
+            <div class="footer">
+                    <p>VandenBorre</p>
+                  </div>
+        <script>
+                function myFunction() {
+                    var x = document.getElementById("customerdata");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+                }
+         </script>
+         <style>
+                .footer {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 3%;
+                    background-color: red;
+                    color: white;
+                    text-align: center;
+                     }
+                </style>        
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+                <script>
+                    $('.example-table tbody').slimscroll({
+                        alwaysVisible: true,
+                        color: '#333'
+                    })
+
+
+
+
+
+                </script>
+    </body>
+</html>
